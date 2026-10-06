@@ -1,109 +1,205 @@
-# 🛡️ Cybersecurity Development Stack
+---
 
-Tecnologias, ferramentas e conceitos utilizados na construção de soluções avançadas de segurança cibernética, automação, análise defensiva e sistemas cognitivos.
+# 🛡️ Security Engineering & Development Ecosystem
 
-## 💻 Development Stack
+This repository presents the technologies, engineering practices, security concepts and development stack used in the construction of advanced cybersecurity, automation, observability and cognitive security solutions.
 
-`Python` `FastAPI` `JavaScript` `HTML5` `CSS3` `Bash`  
-`Linux` `Debian` `systemd` `Nginx` `Authelia`  
-`REST API` `JSON` `JSONL` `SVG`
+> This repository is intentionally documentation-only.  
+> No proprietary source code, credentials, internal infrastructure, private addresses or sensitive implementation details are published here.
 
-## 🧠 AI & Cognitive Systems
+---
 
-- AI-assisted Analysis
-- Cognitive Orchestration
-- Evidence-based Decision Systems
-- Ground Truth Validation
-- AI Second Opinion
-- Autonomous Analysis
-- Evolution Metrics
-- Automated Learning Workflows
-- Guardrail-based Automation
+## 🚀 Technology Stack
 
-## 🔐 Cybersecurity Tooling
+### Core Development
 
-- Nmap
-- Nuclei
-- Trivy
-- YARA
-- CrowdSec
-- Metasploit Framework
-- msfconsole
-- msfrpcd
-- osquery
-- OpenSSL
-- tcpdump
-- tshark
-- ssh-audit
-- sslscan
-- testssl
-- smbclient
-- ldapsearch
+`Python 3` `JavaScript` `HTML5` `CSS3` `Bash` `JSON` `JSONL`
 
-## 🔎 Security Engineering
+### Backend & APIs
+
+`FastAPI` `Uvicorn` `REST API` `Async Python` `Modular Architecture`
+
+### Frontend Engineering
+
+`Vanilla JavaScript` `DOM API` `Fetch API` `MutationObserver` `SVG` `Responsive UI` `Real-Time Dashboards`
+
+### Infrastructure
+
+`Linux` `Debian` `systemd` `Nginx` `Reverse Proxy` `TLS` `HTTPS`
+
+### Identity & Access
+
+`Zero Trust` `MFA` `RBAC` `Authelia` `Session Management` `Access Policies`
+
+---
+
+# 🧠 AI & Cognitive Security Engineering
+
+Modern security platforms increasingly require more than isolated detection tools.
+
+The development approach represented here combines deterministic security engines with cognitive analysis, evidence correlation, automated validation and controlled autonomous workflows.
+
+### Areas of development
+
+- AI-assisted security analysis
+- Cognitive orchestration
+- Evidence-driven decision systems
+- Ground Truth validation
+- AI second-opinion architecture
+- Autonomous security analysis
+- Evolution metrics
+- Defensive learning workflows
+- Security guardrails
+- Automated validation
+- Human approval for critical operations
+- Continuous improvement systems
+
+---
+
+# 🔐 Cybersecurity Tooling
+
+The development environment integrates multiple security engines and analysis technologies.
+
+| Category | Technologies |
+|---|---|
+| Network Discovery | Nmap |
+| Vulnerability Validation | Nuclei |
+| Vulnerability Analysis | Trivy |
+| Detection Rules | YARA |
+| Threat Intelligence / Response | CrowdSec |
+| Security Validation | Metasploit Framework |
+| Endpoint Query | osquery |
+| TLS Analysis | OpenSSL, sslscan, testssl |
+| Network Inspection | tcpdump, tshark |
+| SSH Security | ssh-audit |
+| SMB Analysis | smbclient |
+| LDAP Analysis | ldapsearch |
+| DNS Analysis | dig |
+| HTTP Validation | curl |
+| Network Utilities | netcat |
+
+---
+
+# ⚔️ Security Engineering
+
+### Vulnerability Management
 
 - Vulnerability Assessment
 - CVE Correlation
+- CVE Validation
 - Service Fingerprinting
-- Network Discovery
-- Threat Intelligence
-- Evidence Correlation
-- Risk Analysis
-- Defensive Validation
+- Version Detection
+- Exposure Analysis
 - Security Control Validation
-- False Positive Reduction
-- Automated Security Testing
 
-## ⚙️ Automation & DevSecOps
+### Network Security
 
-- Automated Deployment
-- Automated Validation
-- Backup & Rollback
-- Health Checks
-- Self-Healing Workflows
-- Scheduled Automation
-- Event-driven Automation
-- Structured Logging
-- Live Event Processing
-- Shadow Validation
-- Canary Validation
-- Automated Rollback
+- Network Discovery
+- TCP / UDP Analysis
+- Service Enumeration
+- Protocol Analysis
+- TLS Posture
+- DNS Security
+- SMB Security
+- SSH Security
+- RDP Security
+- SNMP Exposure Analysis
 
-## 🌐 Infrastructure & Security
+### Threat Analysis
 
-- Linux
-- Debian
-- systemd Services
-- systemd Timers
-- Nginx
-- Reverse Proxy
-- TLS / HTTPS
-- Zero Trust
-- MFA
-- RBAC
-- Session Management
-- Security Policies
-- Access Control
+- Threat Intelligence
+- Event Correlation
+- Evidence Correlation
+- Attack Surface Analysis
+- Risk Analysis
+- Attack Path Modeling
+- Defensive Validation
 
-## 📊 Observability
+---
 
-- Structured Logs
-- Live Event Feeds
-- Operational Dashboards
-- Runtime Monitoring
-- Process Monitoring
-- Health Endpoints
-- systemd journal
-- journalctl
+# 🔵 Blue Team Engineering
 
-## 🛡️ Security Principles
+The defensive architecture focuses on evidence, telemetry, correlation and response.
 
-- Secure by Design
-- Defense in Depth
-- Zero Trust
-- Least Privilege
-- Fail-Closed Architecture
-- Deterministic-first Analysis
-- Evidence-driven Decisions
-- Human Approval for Critical Changes
-- Continuous Improvement
+### Capabilities
+
+- Detection engineering
+- Threat correlation
+- Security telemetry
+- Evidence enrichment
+- Incident analysis
+- Risk classification
+- Defensive automation
+- False-positive reduction
+- Security control monitoring
+- Threat intelligence enrichment
+- Continuous defensive validation
+
+---
+
+# 🔴 Controlled Security Validation
+
+Security testing and validation are designed around controlled and authorized environments.
+
+### Concepts
+
+- Vulnerability validation
+- Controlled proof of exposure
+- Security control verification
+- Service validation
+- CVE-bound validation
+- Evidence collection
+- Retesting
+- Remediation verification
+- Risk reassessment
+
+---
+
+# 🤖 Security Automation
+
+A major part of the engineering work focuses on removing repetitive operational tasks.
+
+### Automation concepts
+
+- Automated deployment
+- Health checks
+- Automated validation
+- Backup before changes
+- Automated rollback
+- Self-healing workflows
+- Scheduled automation
+- Event-driven automation
+- Continuous monitoring
+- Structured logging
+- Automatic evidence collection
+
+---
+
+# 🔄 Continuous Security Evolution
+
+Security systems should not remain static.
+
+The engineering model follows a controlled improvement lifecycle:
+
+```text
+OBSERVE
+   ↓
+COLLECT EVIDENCE
+   ↓
+CORRELATE
+   ↓
+LEARN
+   ↓
+PROPOSE IMPROVEMENT
+   ↓
+TEST
+   ↓
+SECURITY REVIEW
+   ↓
+SHADOW VALIDATION
+   ↓
+CANARY VALIDATION
+   ↓
+MEASURE
+   ↓
+APPLY OR ROLLBACK
